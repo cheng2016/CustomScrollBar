@@ -1,0 +1,23 @@
+<!-- res/drawable/seekbar_style.xml -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Track (轨道) -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#D3D3D3" />
+        </shape>
+    </item>
+
+    <!-- Progress (进度) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#000000" />
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Thumb (拇指) -->
+    <item android:drawable="@drawable/thumb_style" />
+</layer-list>

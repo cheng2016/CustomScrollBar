@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomScrollBar">
+        <attr name="trackWidth" format="dimension"/>
+        <attr name="trackColor" format="color"/>
+
+        <attr name="barWidth" format="dimension"/>
+        <attr name="barColor" format="color"/>
+    </declare-styleable>
+</resources>
