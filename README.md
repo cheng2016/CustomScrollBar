@@ -33,8 +33,7 @@ Android 自定义纵向滚动调，自定义垂直滚动条，自定义Webview�
 
 ## View 代码
 
-      package com.baidu.naviauto.view;
-      
+
       import android.content.Context;
       import android.content.res.TypedArray;
       import android.graphics.Canvas;
